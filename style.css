@@ -84,7 +84,7 @@ nav {
     
     align-items: center;
     justify-content: center;
-    padding:100px 0px 0px 100px ;
+    padding:150px 0px 0px 150px ;
    
 }
 
@@ -116,16 +116,45 @@ background-clip: text;
     border: none;
     gap: 10px;
 }
-.box{
-   
-   
-   
-}
+
 .banner-img{
     width: 100%;
     height: 100%;
 }
+/* ...online game....... */
+.online-game-head{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+.color-head{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 3rem;
+font-weight: 700;
 
+}
+.online-game-title{
+    text-align: center;
+    color: #534C64;
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
+.online-game-card{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+   
+.card img{
+    height: 400px;
+    width: 300px;
+}
 
 
 
@@ -135,7 +164,9 @@ background-clip: text;
 @media screen and (max-width:576px) {
 
     nav,
-    .menu {
+    .menu ,
+    .online-game-card
+    {
         flex-direction: column;
     }
     .banner-container{
