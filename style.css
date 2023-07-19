@@ -12,6 +12,12 @@ padding: 21px 40px;
 border: none;
 gap: 10px;
 }
+.text{
+    color: #534C64;
+    font-size: 1rem;
+     font-weight: 500;
+
+}
 /* ...nav...style.... */
 nav {
     display: flex;
@@ -145,17 +151,112 @@ font-weight: 700;
 }
 .online-game-card{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
-
+.card-img:hover{
+    border: 4px solid #F948B2;
+    border-radius: 20px;
+}
    
 .card img{
     height: 400px;
     width: 300px;
 }
+/* ..section-2.... */
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+    height: 1300px;
+    
+    margin-top: 0px;
+}
+.section-2-title{
+    text-align: right;
+    height: 50%;
+    width: 50%;
+   
+   
+}
+.section-2-head{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.colorful-head{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 
+}
+.img-1{
+    height: 10%;
+    width: 90%;
+    padding-left: 9rem;
+}
+.img-2{
+    height: 50%;
+    width: 40%;
+    position: relative;
+     bottom: 280px; 
+}
+/* ..Section-3... */
+.section-3-button{
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(5,1fr); */
+    /* gap: 4px; */
+    justify-content: center;
+}
+.button{
+    margin: 10px 20px;
+    display: flex;
+    
+    align-items: center;
+    border-radius: 40px;
+    gap: 14px
+    ;
+}
+.button:hover{
+    border:2px solid #F948B2;
+    color: #F948B2;
+}
+/* ...footer.. */
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+    width: 80%;
+   padding-top: 5%;
+   
+}
+.footer-title{
+    display: flex;
+   justify-content: center;
+   gap: 30px;
+  margin: 0px;
+}
+.footer-title p{
+    margin: 0px;
+}
+.foot-icon{
+    
+    justify-content: center;
+}
+.footer-img {
+  margin: 10px 40px ;
+}
+.footer-text{
+    color: rgba(255, 255, 255, 0.60);;
+}
 
 
 
@@ -165,7 +266,8 @@ font-weight: 700;
 
     nav,
     .menu ,
-    .online-game-card
+    .online-game-card,
+    .section-2
     {
         flex-direction: column;
     }
@@ -178,7 +280,39 @@ font-weight: 700;
         padding: 0;
        text-align: center;
     }
+    .img-1{
+        height: 100%;
+        width: 80%;
+        padding-left: 3rem;
+    }
+    .img-2{
+        width: 30%;
+        height: 40%;
+        position: relative;
+        bottom: 100px;
+        
+    }
+    
+    .section-2-title{
+        text-align:center;
+        height: 20%;
+        width: 100%;}
+.section-2-head{
+    margin: 0px;
 
+}
+.section-3-button{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+
+}
+.footer-title{
+    flex-wrap: wrap;
+}
+.footer-img{
+    margin: 10px 10px;
+}
     
 
 
