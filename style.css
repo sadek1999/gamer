@@ -313,31 +313,34 @@ footer{
     }
 .section-2-head{
     margin: 0px;
-
-}
+  
+  }
 .section-3-button{
     display: flex;
     /* grid-template-columns: repeat(2,1fr); */
     justify-content: center;
 
-}
+   }
+.button{
+    margin: 5px 5px;
+  }
 .button img{
     height: 30px;
     width: 40px;
-}
+  }
 .button p{
-    font-size: .5rem;
+    font-size: .8rem;
     margin: 0;
-}
+  }
 .footer-title{
     flex-wrap: wrap;
-}
+  }
 .footer-img{
     margin: 10px 10px;
+   }
+
 }
 
-    
-}
 
 
  
